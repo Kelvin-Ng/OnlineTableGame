@@ -1,0 +1,15 @@
+{
+	"name": "online-table-game",
+	"version": "0.0.1",
+	"description": "Online Table Game",
+	"dependencies": {
+		"express": ">= 4.10.7",
+		"body-parser": ">= 1.10.1",
+		"mongojs": ">= 0.18.0",
+		"socket.io": ">= 1.2.1",
+		"node-array": ">= 0.0.7",
+		"bcrypt": ">= 0.8.0",
+		"cookie-parser": "1.3.3",
+		"swig": ">= 1.4.2"
+	}
+}

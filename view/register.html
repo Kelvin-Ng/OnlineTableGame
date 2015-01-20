@@ -1,0 +1,6 @@
+<form action="register" method="post">
+	<input type="text" name="username"> {% if username_exists %} Username is used! {% endif %}<br>
+	<input type="password" name="password"><br>
+	<input type="password" name="re_password"> {% if password_mismatch %} Password mismatch! {% endif %}<br>
+	<input type="submit">
+</form>

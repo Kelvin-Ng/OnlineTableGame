@@ -1,0 +1,19 @@
+<a href="createtable">Create New Table</a>
+
+<table>
+	<tr>
+		<td>Type</td>
+		<td>Name</td>
+		<td>Owner</td>
+		<td>Members</td>
+	</tr>
+
+	{% for table in table_list %}
+	<tr>
+		<td>{{ table.type }}</td>
+		<td><a href="table?id={{ table._id.toString() }}">{{ table.name }}</a></td>
+		<td>{{ table.owner_username }}</td>
+		<td>{{ table.members }}</td>
+	</tr>
+	{% endfor %}
+</table>
